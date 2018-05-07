@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>K-NN vecinos</title>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	
+	<script src="js/Chart.bundle.js"></script>
+	<script src="js/Chart.bundle.min.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div id="card-container">
+		
+		<fieldset>
+        <legend><span class="number">1</span> Datos de algoritmo</legend>
+		<label for="k">K vecinos</label>
+		<input type="text" id="k">
+
+		<legend><span class="number">2</span> Nuevo elemento</legend>
+		<label for="x">Coordenada X</label>
+		<input type="text" id="x">
+		<label for="y">Coordenada Y</label>
+		<input type="text" id="y">
+		<button id ="start">Empezar</button>
+		<h4>Nueva clase</h4>
+		<input type="text" id="newLabel" readonly>
+	
+		<canvas id="myChart" width="200" height="200"></canvas>
+	</div>
+</body>
+</html>
